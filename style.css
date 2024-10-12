@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+
+.card {
+  width: 320px;
+  height: 450px;
+  padding: 0px 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+/* .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+} */
+
+#submit {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #9f532a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+
+#submit:hover {
+  background-color: #7b3e23; /* Change to a darker shade on hover */
+}
+
+#submit:active {
+  background-color: #6a3320; /* Darker shade on click */
+  transform: scale(0.95); /* Slightly shrink the button on click */
+}
+
+.ctry-selector {
+  /* background-color: #7b3e23; */
+  margin-top: 10px;
+}
+
+#form-action {
+  /* background-color: blueviolet; */
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+#heading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#enter-amt {
+  /* margin-top: 10px; */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+#chose-ctry {
+  /* margin-top: 10px; */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
